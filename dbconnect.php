@@ -4,8 +4,6 @@ require_once "idiorm.php";
 
 $ini = parse_ini_file("dbsettings.ini");
 
-print_r($ini);
-
 ORM::configure("mysql:host={$ini['dbhost']};dbname={$ini['dbname']}");
 ORM::configure("username", $ini['dbuser']);
 ORM::configure("password", $ini['dbpassword']);
