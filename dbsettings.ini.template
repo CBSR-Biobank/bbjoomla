@@ -1,0 +1,5 @@
+[database]
+dbhost = hostname
+dbname = biobank
+dbuser = charts_user
+dbpassword = charts_pwd
